@@ -1,0 +1,21 @@
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+<div id = "block">
+  <div id = "container_01" class = "container">
+    <div>
+      <img class = "fadeIn" src="/assets/image/iconGIPHY.png" alt="iconGIPHY.png" width="200" height="200"/>
+    </div>
+    <div id="loader">
+      <div class="square">G</div>
+      <div class="square">I</div>
+      <div class="square">P</div>
+      <div class="square">H</div>
+      <div class="square">Y</div>
+    </div>
+    <div id = "inputForm" class = "fadeIn">
+      <form class="form-wrapper" #Form="ngForm" (ngSubmit)="goGifs(Form.form)">
+          <input type="text" id="search" placeholder="Buscar Gifs..." name="searchString" [(ngModel)]="searchString" autocomplete="off" autofocus required>
+          <input type="submit" id="submit" value="Buscar">
+      </form>
+    </div>
+  </div>
+</div>

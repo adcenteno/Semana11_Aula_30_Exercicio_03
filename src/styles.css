@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#000;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    outline-style: none;
+    border-style: none;
+    box-sizing: border-box;
+}
